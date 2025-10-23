@@ -32,6 +32,7 @@ Mutual Exclusion:
 Only one process can write or read the buffer at a time, preventing race conditions.
 
 To Compile:
+
 g++ producer.cpp -pthread -o producer
 
 g++ consumer.cpp -pthread -o consumer
