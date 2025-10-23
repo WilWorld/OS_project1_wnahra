@@ -33,5 +33,7 @@ Only one process can write or read the buffer at a time, preventing race conditi
 
 To Compile:
 g++ producer.cpp -pthread -o producer
+
 g++ consumer.cpp -pthread -o consumer
+
 ./producer & ./consumer &
