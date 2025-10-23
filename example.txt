@@ -1,0 +1,19 @@
+@WilWorld ➜ /workspaces/OS_project1_wnahra (main) $ ./producer & ./consumer &
+[12] 42029
+[13] 42030
+Produced: 89
+Consumed: 89
+Produced: 13
+Produced: 3
+Consumed: 3
+Produced: 52
+Consumed: 52
+Produced: 39
+Consumed: 39
+Produced: 81
+Producer exiting...
+Consumed: 81
+Consumed: 13
+Consumer exiting...
+[12]-  Done                    ./producer
+[13]+  Done                    ./consumer
